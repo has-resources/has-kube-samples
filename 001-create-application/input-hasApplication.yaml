@@ -1,0 +1,11 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: Application
+metadata:
+  name: application-sample
+spec:
+  displayName: "petclinic"
+  description: "application definition for petclinic-app"
+  gitOpsRepository: 
+    url: "https://github.com/yangcao77/stephanie-app-yangcao-take-sit"
+  appModelRepository: 
+    url: "https://github.com/yangcao77/stephanie-app-yangcao-take-sit"
